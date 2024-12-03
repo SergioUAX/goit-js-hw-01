@@ -1,3 +1,5 @@
 function makeTransaction(quantity, pricePerDroid) { 
-    return `You ordered ${quantity} droids worth ${pricePerDroid * quantity} credits!`;
+    resultMessage = `You ordered ${quantity} droids worth ${pricePerDroid * quantity} credits!`;
+    console.log(resultMessage);
+    return resultMessage;
 }
